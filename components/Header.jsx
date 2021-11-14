@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const categories = [
     {name: 'React', slug: 'react'},
-    {name: 'Wen Development', slug: 'web-dev'},
+    {name: 'Web Development', slug: 'web-dev'},
 ]
 const Header = () => {
     return (
