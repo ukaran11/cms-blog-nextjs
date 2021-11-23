@@ -27,6 +27,7 @@ const PostCard = ({ post }) => {
                         className="align-middle rounded-full"
                         src={post.author.photo.url}
                     />
+                    <p>{post.author.name}</p>
                 </div>
             </div>
         </div>
