@@ -46,6 +46,7 @@ const PostCard = ({ post }) => {
           </svg>
           <span>
               {moment(post.createdAt).format('MMM DD, YYYY')}
+              <h1>test</h1>
           </span>
         </div>
       </div>
